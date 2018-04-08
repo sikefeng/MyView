@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--圆弧进度条-->
+    <declare-styleable name="TasksCompletedView">
+        <attr name="radius" format="dimension"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="ringColor" format="color"/>
+        <attr name="ringBgColor" format="color"/>
+    </declare-styleable>
+
+    <!-- 声名属性集的名称 -->
+    <declare-styleable name="MyView">
+        <attr name="textColor" format="color" />
+        <attr name="textValue" format="string" />
+        <attr name="textSize" format="dimension"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    xmlns:myview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#addafd"
+    android:orientation="vertical">
+
+    <myview.example.com.myview.MyView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        myview:textColor="#0000FF"
+        myview:textSize="16sp"
+        myview:textValue="Hello" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <myview.example.com.myview.CompletedView
+            android:id="@+id/tasks_view"
+            android:layout_width="223dp"
+            android:layout_height="223dp"
+            circle:circleColor="@color/white"
+            circle:radius="50dip"
+            circle:ringBgColor="@color/white2"
+            circle:ringColor="@color/colorRed"
+            circle:strokeWidth="10dip" />
+    </LinearLayout>
+</LinearLayout>
